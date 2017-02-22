@@ -23,6 +23,14 @@ CGFloat const GUIDE_ANIMATE_DURATION = 5.0;
 CGFloat const LOADING_SLEEP_TIME = 3.0;
 
 
+#pragma mark 网络状态提示信息字体
+CGFloat const NETWORKING_STATUS_FONT_SIZE = 14.0;
+
+
+#pragma mark 网络状态提示容器高度
+CGFloat const NETWORKING_STATUS_VIEW_HEIGHT = 35.0;
+
+
 #pragma mark 标签栏高度(系统默认高度为49)
 CGFloat const TAB_BAR_HEIGHT_DEFAULT = 49.0;
 

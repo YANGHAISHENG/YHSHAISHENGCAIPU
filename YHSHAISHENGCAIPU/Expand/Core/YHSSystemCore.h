@@ -27,4 +27,27 @@ typedef NS_ENUM(NSInteger, YHSNavBarType) {
 
 @interface YHSSystemCore : NSObject
 
+
+#pragma mark 网络请求Cookie
+UIKIT_EXTERN NSString * const NETWORK_USER_COOKIE_KEY;
+UIKIT_EXTERN NSString * const NETWORK_USER_COOKIE_VALUE;
+
+
+#pragma mark 上拉刷新提示信息
+UIKIT_EXTERN CGFloat const YHSRefreshAutoFooterFontSize;
+UIKIT_EXTERN NSString *const YHSRefreshAutoFooterIdleText;
+UIKIT_EXTERN NSString *const YHSRefreshAutoFooterRefreshingText;
+UIKIT_EXTERN NSString *const YHSRefreshAutoFooterNoMoreDataText;
+
+
+#pragma mark 网络状态监听的广播频段
+UIKIT_EXTERN NSString * const NOTIFICATION_NETWORKING_STATUS_FREQUENCY;
+#pragma mark 网络状态监听的广播内容 - 字典Key
+UIKIT_EXTERN NSString * const NOTIFICATION_NETWORKING_STATUS_KEY;
+
+
+
 @end
+
+
+

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4B62141E5D5B080096792D /* YHSNetworkingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62131E5D5B080096792D /* YHSNetworkingCache.m */; };
+		7D4B62171E5D5B4B0096792D /* YHSNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62161E5D5B4B0096792D /* YHSNetworkingManager.m */; };
+		7D4B621A1E5D5DB60096792D /* YHSSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62191E5D5DB60096792D /* YHSSystemUtil.m */; };
+		7D4B62201E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B621F1E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.m */; };
+		7D4B62231E5D652C0096792D /* YHSAutoresizeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62221E5D652C0096792D /* YHSAutoresizeUtil.m */; };
+		7D4B62261E5D66D80096792D /* YHSBaseTableRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62251E5D66D80096792D /* YHSBaseTableRefreshViewController.m */; };
+		7D4B62331E5D67C10096792D /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62291E5D67C10096792D /* UIScrollView+EmptyDataSet.m */; };
+		7D4B62341E5D67C10096792D /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B622C1E5D67C10096792D /* TPKeyboardAvoidingCollectionView.m */; };
+		7D4B62351E5D67C10096792D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B622E1E5D67C10096792D /* TPKeyboardAvoidingScrollView.m */; };
+		7D4B62361E5D67C10096792D /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62301E5D67C10096792D /* TPKeyboardAvoidingTableView.m */; };
+		7D4B62371E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62321E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		7D4B623A1E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62391E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.m */; };
+		7D4B623E1E5D6DAA0096792D /* BannerADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B623D1E5D6DAA0096792D /* BannerADModel.m */; };
+		7D4B62421E5D6E360096792D /* BannerADTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B62411E5D6E360096792D /* BannerADTableViewCell.m */; };
 		7D9E45611E5C87C0004CED17 /* HomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E455F1E5C87C0004CED17 /* HomeMainViewController.m */; };
 		7D9E45621E5C87C0004CED17 /* HomeMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E45601E5C87C0004CED17 /* HomeMainViewController.xib */; };
 		7D9E45661E5C880F004CED17 /* FinderMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E45641E5C880F004CED17 /* FinderMainViewController.m */; };
@@ -143,6 +157,35 @@
 /* Begin PBXFileReference section */
 		25F9F5407316FD83AB485B17 /* Pods-YHSHAISHENGCAIPU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHSHAISHENGCAIPU.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHSHAISHENGCAIPU/Pods-YHSHAISHENGCAIPU.release.xcconfig"; sourceTree = "<group>"; };
 		3070D965FBAE4AD59C6466B1 /* Pods-YHSHAISHENGCAIPU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHSHAISHENGCAIPU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHSHAISHENGCAIPU/Pods-YHSHAISHENGCAIPU.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4B62121E5D5B080096792D /* YHSNetworkingCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSNetworkingCache.h; sourceTree = "<group>"; };
+		7D4B62131E5D5B080096792D /* YHSNetworkingCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSNetworkingCache.m; sourceTree = "<group>"; };
+		7D4B62151E5D5B4B0096792D /* YHSNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSNetworkingManager.h; sourceTree = "<group>"; };
+		7D4B62161E5D5B4B0096792D /* YHSNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSNetworkingManager.m; sourceTree = "<group>"; };
+		7D4B62181E5D5DB60096792D /* YHSSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSSystemUtil.h; sourceTree = "<group>"; };
+		7D4B62191E5D5DB60096792D /* YHSSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSSystemUtil.m; sourceTree = "<group>"; };
+		7D4B621B1E5D5F610096792D /* YHSURLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSURLMacro.h; sourceTree = "<group>"; };
+		7D4B621E1E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSBaseNetworkReachabilityViewController.h; sourceTree = "<group>"; };
+		7D4B621F1E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSBaseNetworkReachabilityViewController.m; sourceTree = "<group>"; };
+		7D4B62211E5D652C0096792D /* YHSAutoresizeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSAutoresizeUtil.h; sourceTree = "<group>"; };
+		7D4B62221E5D652C0096792D /* YHSAutoresizeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSAutoresizeUtil.m; sourceTree = "<group>"; };
+		7D4B62241E5D66D80096792D /* YHSBaseTableRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSBaseTableRefreshViewController.h; sourceTree = "<group>"; };
+		7D4B62251E5D66D80096792D /* YHSBaseTableRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSBaseTableRefreshViewController.m; sourceTree = "<group>"; };
+		7D4B62281E5D67C10096792D /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		7D4B62291E5D67C10096792D /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		7D4B622B1E5D67C10096792D /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		7D4B622C1E5D67C10096792D /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		7D4B622D1E5D67C10096792D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		7D4B622E1E5D67C10096792D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		7D4B622F1E5D67C10096792D /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		7D4B62301E5D67C10096792D /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		7D4B62311E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		7D4B62321E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		7D4B62381E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YHSBaseTableRefreshViewController+EmptyDataSet.h"; sourceTree = "<group>"; };
+		7D4B62391E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YHSBaseTableRefreshViewController+EmptyDataSet.m"; sourceTree = "<group>"; };
+		7D4B623C1E5D6DAA0096792D /* BannerADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerADModel.h; sourceTree = "<group>"; };
+		7D4B623D1E5D6DAA0096792D /* BannerADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerADModel.m; sourceTree = "<group>"; };
+		7D4B62401E5D6E360096792D /* BannerADTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerADTableViewCell.h; sourceTree = "<group>"; };
+		7D4B62411E5D6E360096792D /* BannerADTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerADTableViewCell.m; sourceTree = "<group>"; };
 		7D9E455E1E5C87C0004CED17 /* HomeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainViewController.h; sourceTree = "<group>"; };
 		7D9E455F1E5C87C0004CED17 /* HomeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainViewController.m; sourceTree = "<group>"; };
 		7D9E45601E5C87C0004CED17 /* HomeMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeMainViewController.xib; sourceTree = "<group>"; };
@@ -409,6 +452,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7D4B62111E5D5ADD0096792D /* Network[网络] */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B62121E5D5B080096792D /* YHSNetworkingCache.h */,
+				7D4B62131E5D5B080096792D /* YHSNetworkingCache.m */,
+				7D4B62151E5D5B4B0096792D /* YHSNetworkingManager.h */,
+				7D4B62161E5D5B4B0096792D /* YHSNetworkingManager.m */,
+			);
+			name = "Network[网络]";
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7D4B62271E5D67C10096792D /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B62281E5D67C10096792D /* UIScrollView+EmptyDataSet.h */,
+				7D4B62291E5D67C10096792D /* UIScrollView+EmptyDataSet.m */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		7D4B622A1E5D67C10096792D /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B622B1E5D67C10096792D /* TPKeyboardAvoidingCollectionView.h */,
+				7D4B622C1E5D67C10096792D /* TPKeyboardAvoidingCollectionView.m */,
+				7D4B622D1E5D67C10096792D /* TPKeyboardAvoidingScrollView.h */,
+				7D4B622E1E5D67C10096792D /* TPKeyboardAvoidingScrollView.m */,
+				7D4B622F1E5D67C10096792D /* TPKeyboardAvoidingTableView.h */,
+				7D4B62301E5D67C10096792D /* TPKeyboardAvoidingTableView.m */,
+				7D4B62311E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				7D4B62321E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		7D4B623B1E5D6D990096792D /* HomeMain */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B623C1E5D6DAA0096792D /* BannerADModel.h */,
+				7D4B623D1E5D6DAA0096792D /* BannerADModel.m */,
+			);
+			path = HomeMain;
+			sourceTree = "<group>";
+		};
+		7D4B623F1E5D6E260096792D /* HomeMain */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B62401E5D6E360096792D /* BannerADTableViewCell.h */,
+				7D4B62411E5D6E360096792D /* BannerADTableViewCell.m */,
+			);
+			path = HomeMain;
+			sourceTree = "<group>";
+		};
 		7DB2EB5C1E5C6AFD00E51A18 = {
 			isa = PBXGroup;
 			children = (
@@ -581,10 +678,10 @@
 		7DE143751E5C7CA90069311B /* Home[首页] */ = {
 			isa = PBXGroup;
 			children = (
-				7DE143761E5C7CA90069311B /* Controllers */,
 				7DE143771E5C7CA90069311B /* Models */,
-				7DE143781E5C7CA90069311B /* Other */,
 				7DE143791E5C7CA90069311B /* Views */,
+				7DE143761E5C7CA90069311B /* Controllers */,
+				7DE143781E5C7CA90069311B /* Other */,
 			);
 			name = "Home[首页]";
 			path = Home;
@@ -603,6 +700,7 @@
 		7DE143771E5C7CA90069311B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B623B1E5D6D990096792D /* HomeMain */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -617,6 +715,7 @@
 		7DE143791E5C7CA90069311B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B623F1E5D6E260096792D /* HomeMain */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -715,6 +814,7 @@
 				7DE144531E5C7E9A0069311B /* Const[常量] */,
 				7DE144561E5C7E9A0069311B /* Control[控件] */,
 				7DE1445E1E5C7E9A0069311B /* Macros[宏常] */,
+				7D4B62111E5D5ADD0096792D /* Network[网络] */,
 				7DE143931E5C7E990069311B /* Categories[分类] */,
 			);
 			name = "Expand[扩展]";
@@ -737,6 +837,8 @@
 		7DE143861E5C7D9E0069311B /* Vender[三方] */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B62271E5D67C10096792D /* DZNEmptyDataSet */,
+				7D4B622A1E5D67C10096792D /* TPKeyboardAvoiding */,
 				7DE144C31E5C7FB50069311B /* FDFullscreenPopGesture */,
 			);
 			name = "Vender[三方]";
@@ -761,6 +863,12 @@
 				7DE1438C1E5C7E990069311B /* YHSBaseViewController.m */,
 				7DE143891E5C7E990069311B /* YHSBaseNavigationBarViewController.h */,
 				7DE1438A1E5C7E990069311B /* YHSBaseNavigationBarViewController.m */,
+				7D4B621E1E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.h */,
+				7D4B621F1E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.m */,
+				7D4B62241E5D66D80096792D /* YHSBaseTableRefreshViewController.h */,
+				7D4B62251E5D66D80096792D /* YHSBaseTableRefreshViewController.m */,
+				7D4B62381E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.h */,
+				7D4B62391E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -1117,10 +1225,14 @@
 		7DE144591E5C7E9A0069311B /* Core[核心] */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B62181E5D5DB60096792D /* YHSSystemUtil.h */,
+				7D4B62191E5D5DB60096792D /* YHSSystemUtil.m */,
 				7DE1445A1E5C7E9A0069311B /* YHSDateTimeUtil.h */,
 				7DE1445B1E5C7E9A0069311B /* YHSDateTimeUtil.m */,
 				7DE1445C1E5C7E9A0069311B /* YHSSystemCore.h */,
 				7DE1445D1E5C7E9A0069311B /* YHSSystemCore.m */,
+				7D4B62211E5D652C0096792D /* YHSAutoresizeUtil.h */,
+				7D4B62221E5D652C0096792D /* YHSAutoresizeUtil.m */,
 			);
 			name = "Core[核心]";
 			path = Core;
@@ -1129,10 +1241,11 @@
 		7DE1445E1E5C7E9A0069311B /* Macros[宏常] */ = {
 			isa = PBXGroup;
 			children = (
-				7DE1445F1E5C7E9A0069311B /* YHSAssetsMacro.h */,
+				7D4B621B1E5D5F610096792D /* YHSURLMacro.h */,
 				7DE144601E5C7E9A0069311B /* YHSStringMacro.h */,
-				7DE144611E5C7E9A0069311B /* YHSSysLogMacro.h */,
+				7DE1445F1E5C7E9A0069311B /* YHSAssetsMacro.h */,
 				7DE144621E5C7E9A0069311B /* YHSSystemMacro.h */,
+				7DE144611E5C7E9A0069311B /* YHSSysLogMacro.h */,
 			);
 			name = "Macros[宏常]";
 			path = Macros;
@@ -1372,6 +1485,8 @@
 				7DE144B81E5C7E9A0069311B /* UITableView+Scroll.m in Sources */,
 				7DE1448D1E5C7E9A0069311B /* NSString+Contains.m in Sources */,
 				7DE144AE1E5C7E9A0069311B /* UIColor+Hex.m in Sources */,
+				7D4B62201E5D63D50096792D /* YHSBaseNetworkReachabilityViewController.m in Sources */,
+				7D4B62261E5D66D80096792D /* YHSBaseTableRefreshViewController.m in Sources */,
 				7DE144961E5C7E9A0069311B /* NSString+Pinyin.m in Sources */,
 				7DE144671E5C7E9A0069311B /* NSFetchedResultsController+Safe.m in Sources */,
 				7DE144A91E5C7E9A0069311B /* MKMapSnapshotter+Cache.m in Sources */,
@@ -1386,8 +1501,11 @@
 				7DE144881E5C7E9A0069311B /* NSObject+KVC.m in Sources */,
 				7DE144831E5C7E9A0069311B /* NSDecimalNumber+CalculatingByString.m in Sources */,
 				7D9E45611E5C87C0004CED17 /* HomeMainViewController.m in Sources */,
+				7D4B621A1E5D5DB60096792D /* YHSSystemUtil.m in Sources */,
 				7DE144B11E5C7E9A0069311B /* UIImage+Alpha.m in Sources */,
+				7D4B62421E5D6E360096792D /* BannerADTableViewCell.m in Sources */,
 				7DE144A31E5C7E9A0069311B /* NSString+XML.m in Sources */,
+				7D4B62331E5D67C10096792D /* UIScrollView+EmptyDataSet.m in Sources */,
 				7DE144BB1E5C7E9A0069311B /* UIView+AutoLayout.m in Sources */,
 				7DE144B21E5C7E9A0069311B /* UIImage+Cache.m in Sources */,
 				7DE1446A1E5C7E9A0069311B /* CGGeometry+Rect.m in Sources */,
@@ -1397,8 +1515,10 @@
 				7DE144A81E5C7E9A0069311B /* MKGeometry+Rect.m in Sources */,
 				7DE144A71E5C7E9A0069311B /* NSUserDefaults+SafeAccess.m in Sources */,
 				7DE144B91E5C7E9A0069311B /* UITextField+Appearance.m in Sources */,
+				7D4B623E1E5D6DAA0096792D /* BannerADModel.m in Sources */,
 				7DE144AA1E5C7E9A0069311B /* MKMapView+Center.m in Sources */,
 				7DE144691E5C7E9A0069311B /* CGGeometry+Point.m in Sources */,
+				7D4B62141E5D5B080096792D /* YHSNetworkingCache.m in Sources */,
 				7DE1449C1E5C7E9A0069311B /* NSString+Score.m in Sources */,
 				7DE144761E5C7E9A0069311B /* NSData+Hash.m in Sources */,
 				7DE1447C1E5C7E9A0069311B /* NSDictionary+Block.m in Sources */,
@@ -1424,6 +1544,7 @@
 				7DE1446C1E5C7E9A0069311B /* CGGeometry+UIEdgeInsets.m in Sources */,
 				7DE144BE1E5C7E9A0069311B /* YHSSysConstants.m in Sources */,
 				7DE144631E5C7E9A0069311B /* YHSBaseNavigationBarViewController.m in Sources */,
+				7D4B62341E5D67C10096792D /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				7DE144AF1E5C7E9A0069311B /* UIColor+System.m in Sources */,
 				7DE144931E5C7E9A0069311B /* NSString+Matcher.m in Sources */,
 				7DE144661E5C7E9A0069311B /* YHSBaseTabBarController.m in Sources */,
@@ -1440,13 +1561,19 @@
 				7DE1448C1E5C7E9A0069311B /* NSString+Case.m in Sources */,
 				7DE1449D1E5C7E9A0069311B /* NSString+Security.m in Sources */,
 				7D9E45701E5C8839004CED17 /* MineMainViewController.m in Sources */,
+				7D4B623A1E5D696C0096792D /* YHSBaseTableRefreshViewController+EmptyDataSet.m in Sources */,
 				7DE1449B1E5C7E9A0069311B /* NSString+Safe.m in Sources */,
 				7DE144721E5C7E9A0069311B /* NSMutableArray+Save.m in Sources */,
 				7DE144D41E5C84330069311B /* ViewController.m in Sources */,
 				7DE144991E5C7E9A0069311B /* NSString+RemoveEmoji.m in Sources */,
+				7D4B62371E5D67C10096792D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				7DE144941E5C7E9A0069311B /* NSString+MIME.m in Sources */,
 				7DE1448E1E5C7E9A0069311B /* NSString+DictionaryValue.m in Sources */,
+				7D4B62351E5D67C10096792D /* TPKeyboardAvoidingScrollView.m in Sources */,
 				7DE1449F1E5C7E9A0069311B /* NSString+Time.m in Sources */,
+				7D4B62231E5D652C0096792D /* YHSAutoresizeUtil.m in Sources */,
+				7D4B62171E5D5B4B0096792D /* YHSNetworkingManager.m in Sources */,
+				7D4B62361E5D67C10096792D /* TPKeyboardAvoidingTableView.m in Sources */,
 				7DE144731E5C7E9A0069311B /* NSData+APNSToken.m in Sources */,
 				7DE144811E5C7E9A0069311B /* NSDictionary+XML.m in Sources */,
 				7DE1446D1E5C7E9A0069311B /* CLLocation+Coordinate.m in Sources */,

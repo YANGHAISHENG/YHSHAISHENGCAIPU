@@ -16,6 +16,12 @@ UIKIT_EXTERN CGFloat const MARGIN;
 #pragma mark 开机动画显示时长
 UIKIT_EXTERN CGFloat const GUIDE_ANIMATE_DURATION;
 
+#pragma mark 网络状态提示信息字体
+UIKIT_EXTERN CGFloat const NETWORKING_STATUS_FONT_SIZE;
+
+#pragma mark 网络状态提示容器高度
+UIKIT_EXTERN CGFloat const NETWORKING_STATUS_VIEW_HEIGHT;
+
 #pragma mark 数据加载时SLEEP延迟动画显示时间
 UIKIT_EXTERN CGFloat const LOADING_SLEEP_TIME;
 

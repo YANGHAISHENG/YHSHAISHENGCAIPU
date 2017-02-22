@@ -6,9 +6,9 @@
 //  Copyright © 2016年 YANGHAISHENG. All rights reserved.
 //
 
-#import "YHSBaseViewController.h"
+#import "YHSBaseTableRefreshViewController.h"
 
-@interface YHSBaseNavigationBarViewController : YHSBaseViewController
+@interface YHSBaseNavigationBarViewController : YHSBaseTableRefreshViewController
 
 @property (nonatomic, strong) UIView *naviStatusBarCustomView; // 状态栏+导航栏容器
 @property (nonatomic, strong) UIView *navigationBarCustomView; // 自定义导航栏

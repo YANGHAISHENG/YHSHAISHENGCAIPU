@@ -10,6 +10,8 @@
 #define YHSStringMacro_h
 
 
+#pragma mark - 导航栏常量宏
+
 // 导航栏
 #define NAVIGATION_BAR_BUTTON_TITLE_LEFT           @"返回"
 #define NAVIGATION_BAR_BUTTON_TITLE_RIGHT          @""
@@ -27,6 +29,12 @@
 #define NAVIGATION_BAR_TITLE_FINDER                @"发现"
 #define NAVIGATION_BAR_TITLE_SQUARE                @"广场"
 #define NAVIGATION_BAR_TITLE_MINE                  @"我的"
+
+
+#pragma mark - 字符串常量宏
+
+// 字符串常量 - 空白
+#define STR_WHITE_SPACE                       @"无"
 
 
 

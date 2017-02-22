@@ -64,7 +64,7 @@
 #pragma mark 导航栏配置
 #define NAVIGATION_BAR_TITLE_FONT_DEFAULT [UIFont systemFontOfSize:18.0]
 #define NAVIGATION_BAR_TITLE_COLOR_DEFAULT  [UIColor colorWithRed:0.93 green:0.96 blue:0.98 alpha:1.00]
-#define NAVIGATION_BAR_BACKGROUND_COLOR_DEFAULT [UIColor colorWithRed:0.12 green:0.46 blue:0.69 alpha:0.60]
+#define NAVIGATION_BAR_BACKGROUND_COLOR_DEFAULT [UIColor colorWithRed:0.95 green:0.62 blue:0.22 alpha:1.00]
 #pragma mark 导航栏配置 - 按钮
 #define NAVIGATION_BAR_BUTTON_TITLE_FONT [UIFont systemFontOfSize:16.0f]
 #define NAVIGATION_BAR_BUTTON_TITLE_COLOR_NORMAL [UIColor colorWithRed:0.93 green:0.96 blue:0.98 alpha:1.00]
@@ -75,6 +75,15 @@
 #define TAB_BAR_TITLE_FONT_DEFAULT [UIFont systemFontOfSize:12.0f]
 #define TAB_BAR_TITLE_COLOR_NORMAL_DEFAULT [UIColor colorWithRed:0.42 green:0.44 blue:0.45 alpha:1.00]
 #define TAB_BAR_TITLE_COLOR_SELECT_DEFAULT [UIColor colorWithRed:0.00 green:0.33 blue:0.55 alpha:1.00]
+
+
+
+// UITableView表格背景色
+#define TABLEVIEW_SEPARATOR_LINE_COLOR [UIColor colorWithRed:0.94 green:0.95 blue:0.96 alpha:1.00]
+#define TABLEVIEW_BACK_VIEW_BACKGROUND_COLOR [UIColor colorWithRed:0.92 green:0.92 blue:0.95 alpha:1.00]
+#define TABLEVIEW_HEADER_VIEW_BACKGROUND_COLOR [UIColor colorWithRed:0.92 green:0.92 blue:0.95 alpha:1.00]
+#define TABLEVIEW_FOOTER_VIEW_BACKGROUND_COLOR [UIColor colorWithRed:0.92 green:0.92 blue:0.95 alpha:1.00]
+
 
 
 #endif /* YHSSystemMacro_h */
